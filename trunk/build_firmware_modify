@@ -30,7 +30,7 @@ echo "CONFIG_FIRMWARE_INCLUDE_KOOLPROXY=n" >> .config #KP广告过滤
 ##广告管理##
 
 ##DNS服务##
-echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=n" >> .config #smartdns
+echo "CONFIG_FIRMWARE_INCLUDE_SMARTDNS=y" >> .config #smartdns
 echo "CONFIG_FIRMWARE_INCLUDE_ADGUARDHOME=n" >> .config #adg DNS去AD
 
 ##DNS服务##
@@ -46,9 +46,9 @@ echo "CONFIG_FIRMWARE_INCLUDE_WYYBIN=n" >> .config #网易云解锁GO版本执�
 ##音乐解锁##
 
 ##内网穿透服务##
-echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=n" >> .config #zerotier ~1.3M
+echo "CONFIG_FIRMWARE_INCLUDE_ZEROTIER=y" >> .config #zerotier ~1.3M
 echo "CONFIG_FIRMWARE_INCLUDE_ALIDDNS=n" >> .config #aliddns
-echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=n" >> .config #ddnsto
+echo "CONFIG_FIRMWARE_INCLUDE_DDNSTO=y" >> .config #ddnsto
 echo "CONFIG_FIRMWARE_INCLUDE_NPC=n" >> .config #npc
 echo "CONFIG_FIRMWARE_INCLUDE_ALDRIVER=n" >> .config #阿里云盘webdav
 
